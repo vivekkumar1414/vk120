@@ -1,0 +1,188 @@
+<html>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Writing Animation</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #f0f8ff; /* Light blue background */
+      font-family: 'Arial', sans-serif;
+    }
+
+    .container {
+      position: relative;
+      overflow: hidden;
+      height: 2.5em; /* Ensures the text fits */
+    }
+
+    .text {
+      font-size: 2em;
+      font-weight: bold;
+      color: #007acc; /* Text color */
+      white-space: nowrap;
+      position: absolute;
+      top: -100%; /* Start above the container */
+      animation: slide-down 1.5s ease-out forwards, typing 3s steps(40) 1.5s forwards, blink-cursor 0.7s step-end infinite 4.5s;
+      border-right: 2px solid #007acc; /* Cursor effect */
+      width: 0; /* Start with hidden text */
+    }
+
+    /* Sliding down animation */
+    @keyframes slide-down {
+      to {
+        top: 0;
+      }
+    }
+
+    /* Typing effect animation */
+    @keyframes typing {
+      to {
+        width: 100%; /* Reveal the full text */
+      }
+    }
+
+    /* Blinking cursor animation */
+    @keyframes blink-cursor {
+      50% {
+        border-color: transparent;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="text">Wish you a memorable and wonderful day</div>
+  </div>
+</body>
+</html>
+    Middle<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neon Strips on Corners</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background: black;
+      overflow: hidden;
+    }
+
+    /* Neon strip base styles */
+    .strip {
+      position: absolute;
+      width: 10px;
+      background: linear-gradient(90deg, #FF00FF, #00FFFF, #FFFF00, #FF4500);
+      animation: glow 2s infinite alternate;
+      box-shadow: 0 0 10px #FF00FF, 0 0 30px #FF00FF, 0 0 60px #FF00FF;
+    }
+
+    /* Top-left strip */
+    .strip.top-left {
+      top: 0;
+      left: 0;
+      height: 100px;
+    }
+
+    .strip.top-left.horizontal {
+      top: 0;
+      left: 0;
+      height: 10px;
+      width: 100px;
+    }
+
+    /* Top-right strip */
+    .strip.top-right {
+      top: 0;
+      right: 0;
+      height: 100px;
+    }
+
+    .strip.top-right.horizontal {
+      top: 0;
+      right: 0;
+      height: 10px;
+      width: 100px;
+    }
+
+    /* Bottom-left strip */
+    .strip.bottom-left {
+      bottom: 0;
+      left: 0;
+      height: 100px;
+    }
+
+    .strip.bottom-left.horizontal {
+      bottom: 0;
+      left: 0;
+      height: 10px;
+      width: 100px;
+    }
+
+    /* Bottom-right strip */
+    .strip.bottom-right {
+      bottom: 0;
+      right: 0;
+      height: 100px;
+    }
+
+    .strip.bottom-right.horizontal {
+      bottom: 0;
+      right: 0;
+      height: 10px;
+      width: 100px;
+    }
+
+    /* Animation for neon glow */
+    @keyframes glow {
+      0% {
+        box-shadow: 0 0 10px #FF00FF, 0 0 30px #FF00FF, 0 0 60px #FF00FF;
+      }
+      100% {
+        box-shadow: 0 0 20px #00FFFF, 0 0 40px #00FFFF, 0 0 80px #00FFFF;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Neon strips on corners -->
+  <div class="strip top-left"></div>
+  <div class="strip top-left horizontal"></div>
+  
+  <div class="strip top-right"></div>
+  <div class="strip top-right horizontal"></div>
+  
+  <div class="strip bottom-left"></div>
+  <div class="strip bottom-left horizontal"></div>
+  
+  <div class="strip bottom-right"></div>
+  <div class="strip bottom-right horizontal"></div>
+</body>
+</html>
+    <head>
+        <title>your gift</title>
+    </head>
+    <body>
+        <video width="400" height="620" controls>
+            <source src="D:\vk120\second mail fill\song of second fill\__1a Happy Girl.mp4">
+            your browser does not support the video tag.
+        </video>
+        <video width="400" height="620" controls>
+            <source src="D:\vk120\second mail fill\song of second fill\Here are song lyrics for _1yyaa, My .mp4">
+            your browser does not support the video tag.
+        </video>
+        <video width="400" height="620" controls>
+            <source src="/<__1a Happy Girl>.mp4">
+            your browser does not support the video tag.
+        </video>
+        </body>
+</html>
